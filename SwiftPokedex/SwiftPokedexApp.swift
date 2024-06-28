@@ -1,17 +1,19 @@
 //
-//  SwiftPokedexApp.swift
+//  PokedexApp.swift
 //  SwiftPokedex
 //
 //  Created by Federico Agnello on 28/06/24.
 //
 
+import Foundation
 import SwiftUI
 
 @main
-struct SwiftPokedexApp: App {
+struct PokedexApp: App {
+    @State private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(ModelData())
         }
     }
 }

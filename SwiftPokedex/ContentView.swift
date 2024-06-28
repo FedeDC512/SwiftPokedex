@@ -2,23 +2,18 @@
 //  ContentView.swift
 //  SwiftPokedex
 //
-//  Created by Federico Agnello on 28/06/24.
+//  Created by Federico Agnello on 27/06/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Test")
-        }
-        .padding()
+        PokemonList()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView().environment(ModelData())
 }
+

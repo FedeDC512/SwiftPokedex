@@ -1,6 +1,6 @@
 //
 //  PokemonDetails.swift
-//  SwiftUI Exercises
+//  SwiftPokedex
 //
 //  Created by Federico Agnello on 28/06/24.
 //

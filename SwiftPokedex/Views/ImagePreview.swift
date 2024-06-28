@@ -1,6 +1,6 @@
 //
 //  ImagePreview.swift
-//  SwiftUI Exercises
+//  SwiftPokedex
 //
 //  Created by Federico Agnello on 27/06/24.
 //
