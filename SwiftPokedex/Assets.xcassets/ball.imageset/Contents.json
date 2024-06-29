@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "Poké_Ball_icon.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Poké_Ball_icon.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
