@@ -40,7 +40,9 @@ struct PokemonDetails: View {
                 }
                 Divider()
                 Text("Abilities").font(.title2)
-                Text(pokemon.abilities[0])
+                ForEach(0..<pokemon.abilities.count) {
+                    i in Text(pokemon.abilities[i])
+                }
                 Divider()
                 Text("Base Stats").font(.title2)
                 HStack{
