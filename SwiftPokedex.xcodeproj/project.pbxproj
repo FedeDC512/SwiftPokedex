@@ -21,6 +21,8 @@
 		7A3326B12C2F14EA00FA7160 /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3326B02C2F14EA00FA7160 /* PokemonDetails.swift */; };
 		7A3326B32C2F150800FA7160 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3326B22C2F150800FA7160 /* FavoriteButton.swift */; };
 		7A3326B52C2F151C00FA7160 /* CatchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3326B42C2F151C00FA7160 /* CatchButton.swift */; };
+		7ACB9F6A2C33F1760019FB02 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB9F692C33F1760019FB02 /* README.md */; };
+		7ACB9F6C2C33F1C00019FB02 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB9F6B2C33F1C00019FB02 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		7A3326B02C2F14EA00FA7160 /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
 		7A3326B22C2F150800FA7160 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		7A3326B42C2F151C00FA7160 /* CatchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchButton.swift; sourceTree = "<group>"; };
+		7ACB9F692C33F1760019FB02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7ACB9F6B2C33F1C00019FB02 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		7A3326872C2F011A00FA7160 = {
 			isa = PBXGroup;
 			children = (
+				7ACB9F6B2C33F1C00019FB02 /* .gitignore */,
+				7ACB9F692C33F1760019FB02 /* README.md */,
 				7A3326922C2F011A00FA7160 /* SwiftPokedex */,
 				7A3326912C2F011A00FA7160 /* Products */,
 			);
@@ -171,8 +177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACB9F6C2C33F1C00019FB02 /* .gitignore in Resources */,
 				7A33269B2C2F011B00FA7160 /* Preview Assets.xcassets in Resources */,
 				7A3326A82C2F146D00FA7160 /* pokemonInfo.json in Resources */,
+				7ACB9F6A2C33F1760019FB02 /* README.md in Resources */,
 				7A3326982C2F011B00FA7160 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
