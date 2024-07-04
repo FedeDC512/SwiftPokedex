@@ -30,6 +30,7 @@ struct PokemonRow: View {
 #Preview {
     Group {
         PokemonRow(pokemon: ModelData().pokemons[0])
-        PokemonRow(pokemon: ModelData().pokemons[1])
+        PokemonRow(pokemon: ModelData().pokemons[3])
+        PokemonRow(pokemon: ModelData().pokemons[6])
     }
 }

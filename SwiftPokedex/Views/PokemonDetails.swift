@@ -19,7 +19,7 @@ struct PokemonDetails: View {
         @Bindable var modelData = modelData
         VStack {
             
-            Decoration()
+            Decoration(pokemon: pokemon)
             ImagePreview(image: pokemon.image)
                 .offset(y: -120).padding(.bottom, -130)
             
@@ -39,11 +39,6 @@ struct PokemonDetails: View {
                     }
                 }
                 Divider()
-                Text("Abilities").font(.title2)
-                ForEach(0..<pokemon.abilities.count) {
-                    i in Text(pokemon.abilities[i])
-                }
-                Divider()
                 Text("Base Stats").font(.title2)
                 HStack{
                     let total_stats = pokemon.base_stats.attack + pokemon.base_stats.defense + pokemon.base_stats.special_attack + pokemon.base_stats.special_defense + pokemon.base_stats.speed
@@ -58,6 +53,6 @@ struct PokemonDetails: View {
 }
 
 #Preview {
-    PokemonDetails(pokemon: ModelData().pokemons[2]).environment(ModelData())
+    PokemonDetails(pokemon: ModelData().pokemons[150]).environment(ModelData())
 }
 

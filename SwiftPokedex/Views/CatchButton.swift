@@ -22,14 +22,6 @@ struct CatchButton: View {
                 .scaledToFit()
                 .frame(height: 30)
         }
-        /*Button {
-            isSet.toggle()
-        } label: {
-            Label("Favorite", systemImage: isSet ? "star.fill" : "star")
-                .labelStyle(.iconOnly)
-                .foregroundStyle(isSet ? .yellow : .gray)
-        }*/
-        
     }
 }
 

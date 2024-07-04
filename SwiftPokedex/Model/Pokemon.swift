@@ -13,7 +13,6 @@ struct Pokemon: Hashable, Codable, Identifiable {
     var name:String
     var type:[String]
     var dex:String
-    var abilities:[String]
     var base_stats:BaseStats
     var favorite:Bool
     var caught_entities:Int

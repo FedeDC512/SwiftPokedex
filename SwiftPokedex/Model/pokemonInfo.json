@@ -1,87 +1,2787 @@
 [
-    {
-        "name": "Pikachu",
-        "type": ["Electric"],
-        "dex": "025",
-        "id": 25,
-        "abilities": ["Static", "Lightning Rod"],
-        "base_stats": {
-            "hp": 35,
-            "attack": 55,
-            "defense": 40,
-            "special_attack": 50,
-            "special_defense": 50,
-            "speed": 90
-        },
-        "favorite": true,
-        "caught_entities": 0
+  {
+    "id": 1,
+    "dex": "001",
+    "name": "Bulbasaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 45
     },
-    {
-        "name": "Charmander",
-        "type": ["Fire"],
-        "dex": "004",
-        "id": 4,
-        "abilities": ["Blaze", "Solar Power"],
-        "base_stats": {
-            "hp": 39,
-            "attack": 52,
-            "defense": 43,
-            "special_attack": 60,
-            "special_defense": 50,
-            "speed": 65
-        },
-        "favorite": false,
-        "caught_entities": 0
+    "favorite": true,
+    "caught_entities": 0
+  },
+  {
+    "id": 2,
+    "dex": "002",
+    "name": "Ivysaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 60
     },
-    {
-        "name": "Bulbasaur",
-        "type": ["Grass", "Poison"],
-        "dex": "001",
-        "id": 1,
-        "abilities": ["Overgrow", "Chlorophyll"],
-        "base_stats": {
-            "hp": 45,
-            "attack": 49,
-            "defense": 49,
-            "special_attack": 65,
-            "special_defense": 65,
-            "speed": 45
-        },
-        "favorite": false,
-        "caught_entities": 0
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 3,
+    "dex": "003",
+    "name": "Venusaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80
     },
-    {
-        "name": "Squirtle",
-        "type": ["Water"],
-        "dex": "007",
-        "id": 7,
-        "abilities": ["Torrent", "Rain Dish"],
-        "base_stats": {
-            "hp": 44,
-            "attack": 48,
-            "defense": 65,
-            "special_attack": 50,
-            "special_defense": 64,
-            "speed": 43
-        },
-        "favorite": false,
-        "caught_entities": 0
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 4,
+    "dex": "004",
+    "name": "Charmander",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "special_attack": 60,
+      "special_defense": 50,
+      "speed": 65
     },
-    {
-        "name": "Jigglypuff",
-        "type": ["Normal", "Fairy"],
-        "dex": "039",
-        "id": 39,
-        "abilities": ["Cute Charm", "Competitive", "Friend Guard"],
-        "base_stats": {
-            "hp": 115,
-            "attack": 45,
-            "defense": 20,
-            "special_attack": 45,
-            "special_defense": 25,
-            "speed": 20
-        },
-        "favorite": false,
-        "caught_entities": 0
-    }
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 5,
+    "dex": "005",
+    "name": "Charmeleon",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "special_attack": 80,
+      "special_defense": 65,
+      "speed": 80
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 6,
+    "dex": "006",
+    "name": "Charizard",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 109,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 7,
+    "dex": "007",
+    "name": "Squirtle",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "special_attack": 50,
+      "special_defense": 64,
+      "speed": 43
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 8,
+    "dex": "008",
+    "name": "Wartortle",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 80,
+      "speed": 58
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 9,
+    "dex": "009",
+    "name": "Blastoise",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special_attack": 85,
+      "special_defense": 105,
+      "speed": 78
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 10,
+    "dex": "010",
+    "name": "Caterpie",
+    "type": [
+      "Bug"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "special_attack": 20,
+      "special_defense": 20,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 11,
+    "dex": "011",
+    "name": "Metapod",
+    "type": [
+      "Bug"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "special_attack": 25,
+      "special_defense": 25,
+      "speed": 30
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 12,
+    "dex": "012",
+    "name": "Butterfree",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "special_attack": 90,
+      "special_defense": 80,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 13,
+    "dex": "013",
+    "name": "Weedle",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special_attack": 20,
+      "special_defense": 20,
+      "speed": 50
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 14,
+    "dex": "014",
+    "name": "Kakuna",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "special_attack": 25,
+      "special_defense": 25,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 15,
+    "dex": "015",
+    "name": "Beedrill",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special_attack": 45,
+      "special_defense": 80,
+      "speed": 75
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 16,
+    "dex": "016",
+    "name": "Pidgey",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special_attack": 35,
+      "special_defense": 35,
+      "speed": 56
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 17,
+    "dex": "017",
+    "name": "Pidgeotto",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 71
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 18,
+    "dex": "018",
+    "name": "Pidgeot",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 101
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 19,
+    "dex": "019",
+    "name": "Rattata",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "special_attack": 25,
+      "special_defense": 35,
+      "speed": 72
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 20,
+    "dex": "020",
+    "name": "Raticate",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "special_attack": 50,
+      "special_defense": 70,
+      "speed": 97
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 21,
+    "dex": "021",
+    "name": "Spearow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "special_attack": 31,
+      "special_defense": 31,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 22,
+    "dex": "022",
+    "name": "Fearow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "special_attack": 61,
+      "special_defense": 61,
+      "speed": 100
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 23,
+    "dex": "023",
+    "name": "Ekans",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "special_attack": 40,
+      "special_defense": 54,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 24,
+    "dex": "024",
+    "name": "Arbok",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "special_attack": 65,
+      "special_defense": 79,
+      "speed": 80
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 25,
+    "dex": "025",
+    "name": "Pikachu",
+    "type": [
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 26,
+    "dex": "026",
+    "name": "Raichu",
+    "type": [
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "special_attack": 90,
+      "special_defense": 80,
+      "speed": 110
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 27,
+    "dex": "027",
+    "name": "Sandshrew",
+    "type": [
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "special_attack": 20,
+      "special_defense": 30,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 28,
+    "dex": "028",
+    "name": "Sandslash",
+    "type": [
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "special_attack": 45,
+      "special_defense": 55,
+      "speed": 65
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 29,
+    "dex": "029",
+    "name": "Nidoran♀",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 41
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 30,
+    "dex": "030",
+    "name": "Nidorina",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 56
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 31,
+    "dex": "031",
+    "name": "Nidoqueen",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "special_attack": 75,
+      "special_defense": 85,
+      "speed": 76
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 32,
+    "dex": "032",
+    "name": "Nidoran♂",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 50
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 33,
+    "dex": "033",
+    "name": "Nidorino",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 65
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 34,
+    "dex": "034",
+    "name": "Nidoking",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 85
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 35,
+    "dex": "035",
+    "name": "Clefairy",
+    "type": [
+      "Fairy"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "special_attack": 60,
+      "special_defense": 65,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 36,
+    "dex": "036",
+    "name": "Clefable",
+    "type": [
+      "Fairy"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "special_attack": 95,
+      "special_defense": 90,
+      "speed": 60
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 37,
+    "dex": "037",
+    "name": "Vulpix",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 65,
+      "speed": 65
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 38,
+    "dex": "038",
+    "name": "Ninetales",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "special_attack": 81,
+      "special_defense": 100,
+      "speed": 100
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 39,
+    "dex": "039",
+    "name": "Jigglypuff",
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base_stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "special_attack": 45,
+      "special_defense": 25,
+      "speed": 20
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 40,
+    "dex": "040",
+    "name": "Wigglytuff",
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base_stats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "special_attack": 85,
+      "special_defense": 50,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 41,
+    "dex": "041",
+    "name": "Zubat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special_attack": 30,
+      "special_defense": 40,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 42,
+    "dex": "042",
+    "name": "Golbat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "special_attack": 65,
+      "special_defense": 75,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 43,
+    "dex": "043",
+    "name": "Oddish",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "special_attack": 75,
+      "special_defense": 65,
+      "speed": 30
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 44,
+    "dex": "044",
+    "name": "Gloom",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 45,
+    "dex": "045",
+    "name": "Vileplume",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "special_attack": 110,
+      "special_defense": 90,
+      "speed": 50
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 46,
+    "dex": "046",
+    "name": "Paras",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "special_attack": 45,
+      "special_defense": 55,
+      "speed": 25
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 47,
+    "dex": "047",
+    "name": "Parasect",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "special_attack": 60,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 48,
+    "dex": "048",
+    "name": "Venonat",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 40,
+      "special_defense": 55,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 49,
+    "dex": "049",
+    "name": "Venomoth",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 90,
+      "special_defense": 75,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 50,
+    "dex": "050",
+    "name": "Diglett",
+    "type": [
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "special_attack": 35,
+      "special_defense": 45,
+      "speed": 95
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 51,
+    "dex": "051",
+    "name": "Dugtrio",
+    "type": [
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "special_attack": 50,
+      "special_defense": 70,
+      "speed": 120
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 52,
+    "dex": "052",
+    "name": "Meowth",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 53,
+    "dex": "053",
+    "name": "Persian",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 115
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 54,
+    "dex": "054",
+    "name": "Psyduck",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "special_attack": 65,
+      "special_defense": 50,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 55,
+    "dex": "055",
+    "name": "Golduck",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "special_attack": 95,
+      "special_defense": 80,
+      "speed": 85
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 56,
+    "dex": "056",
+    "name": "Mankey",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "special_attack": 35,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 57,
+    "dex": "057",
+    "name": "Primeape",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "special_attack": 60,
+      "special_defense": 70,
+      "speed": 95
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 58,
+    "dex": "058",
+    "name": "Growlithe",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "special_attack": 70,
+      "special_defense": 50,
+      "speed": 60
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 59,
+    "dex": "059",
+    "name": "Arcanine",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 95
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 60,
+    "dex": "060",
+    "name": "Poliwag",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 90
+    },
+    "favorite": true,
+    "caught_entities": 0
+  },
+  {
+    "id": 61,
+    "dex": "061",
+    "name": "Poliwhirl",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 62,
+    "dex": "062",
+    "name": "Poliwrath",
+    "type": [
+      "Water",
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "special_attack": 70,
+      "special_defense": 90,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 63,
+    "dex": "063",
+    "name": "Abra",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "special_attack": 105,
+      "special_defense": 55,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 64,
+    "dex": "064",
+    "name": "Kadabra",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special_attack": 120,
+      "special_defense": 70,
+      "speed": 105
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 65,
+    "dex": "065",
+    "name": "Alakazam",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special_attack": 135,
+      "special_defense": 95,
+      "speed": 120
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 66,
+    "dex": "066",
+    "name": "Machop",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "special_attack": 35,
+      "special_defense": 35,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 67,
+    "dex": "067",
+    "name": "Machoke",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 50,
+      "special_defense": 60,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 68,
+    "dex": "068",
+    "name": "Machamp",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 85,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 69,
+    "dex": "069",
+    "name": "Bellsprout",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "special_attack": 70,
+      "special_defense": 30,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 70,
+    "dex": "070",
+    "name": "Weepinbell",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "special_attack": 85,
+      "special_defense": 45,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 71,
+    "dex": "071",
+    "name": "Victreebel",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 72,
+    "dex": "072",
+    "name": "Tentacool",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special_attack": 50,
+      "special_defense": 100,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 73,
+    "dex": "073",
+    "name": "Tentacruel",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "special_attack": 80,
+      "special_defense": 120,
+      "speed": 100
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 74,
+    "dex": "074",
+    "name": "Geodude",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "special_attack": 30,
+      "special_defense": 30,
+      "speed": 20
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 75,
+    "dex": "075",
+    "name": "Graveler",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 76,
+    "dex": "076",
+    "name": "Golem",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 77,
+    "dex": "077",
+    "name": "Ponyta",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 78,
+    "dex": "078",
+    "name": "Rapidash",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 105
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 79,
+    "dex": "079",
+    "name": "Slowpoke",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 15
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 80,
+    "dex": "080",
+    "name": "Slowbro",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 81,
+    "dex": "081",
+    "name": "Magnemite",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "base_stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "special_attack": 95,
+      "special_defense": 55,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 82,
+    "dex": "082",
+    "name": "Magneton",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "special_attack": 120,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 83,
+    "dex": "083",
+    "name": "Farfetch'd",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "special_attack": 58,
+      "special_defense": 62,
+      "speed": 60
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 84,
+    "dex": "084",
+    "name": "Doduo",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "special_attack": 35,
+      "special_defense": 35,
+      "speed": 75
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 85,
+    "dex": "085",
+    "name": "Dodrio",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 110
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 86,
+    "dex": "086",
+    "name": "Seel",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "special_attack": 45,
+      "special_defense": 70,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 87,
+    "dex": "087",
+    "name": "Dewgong",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "special_attack": 70,
+      "special_defense": 95,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 88,
+    "dex": "088",
+    "name": "Grimer",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "special_attack": 40,
+      "special_defense": 50,
+      "speed": 25
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 89,
+    "dex": "089",
+    "name": "Muk",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "special_attack": 65,
+      "special_defense": 100,
+      "speed": 50
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 90,
+    "dex": "090",
+    "name": "Shellder",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "special_attack": 45,
+      "special_defense": 25,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 91,
+    "dex": "091",
+    "name": "Cloyster",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "special_attack": 85,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 92,
+    "dex": "092",
+    "name": "Gastly",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "special_attack": 100,
+      "special_defense": 35,
+      "speed": 80
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 93,
+    "dex": "093",
+    "name": "Haunter",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "special_attack": 115,
+      "special_defense": 55,
+      "speed": 95
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 94,
+    "dex": "094",
+    "name": "Gengar",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 130,
+      "special_defense": 75,
+      "speed": 110
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 95,
+    "dex": "095",
+    "name": "Onix",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "special_attack": 30,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 96,
+    "dex": "096",
+    "name": "Drowzee",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "special_attack": 43,
+      "special_defense": 90,
+      "speed": 42
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 97,
+    "dex": "097",
+    "name": "Hypno",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "special_attack": 73,
+      "special_defense": 115,
+      "speed": 67
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 98,
+    "dex": "098",
+    "name": "Krabby",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "special_attack": 25,
+      "special_defense": 25,
+      "speed": 50
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 99,
+    "dex": "099",
+    "name": "Kingler",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 75
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 100,
+    "dex": "100",
+    "name": "Voltorb",
+    "type": [
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 100
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 101,
+    "dex": "101",
+    "name": "Electrode",
+    "type": [
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 150
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 102,
+    "dex": "102",
+    "name": "Exeggcute",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "special_attack": 60,
+      "special_defense": 45,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 103,
+    "dex": "103",
+    "name": "Exeggutor",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "special_attack": 125,
+      "special_defense": 75,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 104,
+    "dex": "104",
+    "name": "Cubone",
+    "type": [
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 50,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 105,
+    "dex": "105",
+    "name": "Marowak",
+    "type": [
+      "Ground"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "special_attack": 50,
+      "special_defense": 80,
+      "speed": 45
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 106,
+    "dex": "106",
+    "name": "Hitmonlee",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "special_attack": 35,
+      "special_defense": 110,
+      "speed": 87
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 107,
+    "dex": "107",
+    "name": "Hitmonchan",
+    "type": [
+      "Fighting"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "special_attack": 35,
+      "special_defense": 110,
+      "speed": 76
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 108,
+    "dex": "108",
+    "name": "Lickitung",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 30
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 109,
+    "dex": "109",
+    "name": "Koffing",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "special_attack": 60,
+      "special_defense": 45,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 110,
+    "dex": "110",
+    "name": "Weezing",
+    "type": [
+      "Poison"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "special_attack": 85,
+      "special_defense": 70,
+      "speed": 60
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 111,
+    "dex": "111",
+    "name": "Rhyhorn",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "special_attack": 30,
+      "special_defense": 30,
+      "speed": 25
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 112,
+    "dex": "112",
+    "name": "Rhydon",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 113,
+    "dex": "113",
+    "name": "Chansey",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "special_attack": 35,
+      "special_defense": 105,
+      "speed": 50
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 114,
+    "dex": "114",
+    "name": "Tangela",
+    "type": [
+      "Grass"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "special_attack": 100,
+      "special_defense": 40,
+      "speed": 60
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 115,
+    "dex": "115",
+    "name": "Kangaskhan",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "special_attack": 40,
+      "special_defense": 80,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 116,
+    "dex": "116",
+    "name": "Horsea",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "special_attack": 70,
+      "special_defense": 25,
+      "speed": 60
+    },
+    "favorite": true,
+    "caught_entities": 0
+  },
+  {
+    "id": 117,
+    "dex": "117",
+    "name": "Seadra",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "special_attack": 95,
+      "special_defense": 45,
+      "speed": 85
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 118,
+    "dex": "118",
+    "name": "Goldeen",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "special_attack": 35,
+      "special_defense": 50,
+      "speed": 63
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 119,
+    "dex": "119",
+    "name": "Seaking",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "special_attack": 65,
+      "special_defense": 80,
+      "speed": 68
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 120,
+    "dex": "120",
+    "name": "Staryu",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "special_attack": 70,
+      "special_defense": 55,
+      "speed": 85
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 121,
+    "dex": "121",
+    "name": "Starmie",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special_attack": 100,
+      "special_defense": 85,
+      "speed": 115
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 122,
+    "dex": "122",
+    "name": "Mr. Mime",
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 120,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 123,
+    "dex": "123",
+    "name": "Scyther",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special_attack": 55,
+      "special_defense": 80,
+      "speed": 105
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 124,
+    "dex": "124",
+    "name": "Jynx",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "special_attack": 115,
+      "special_defense": 95,
+      "speed": 95
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 125,
+    "dex": "125",
+    "name": "Electabuzz",
+    "type": [
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "special_attack": 95,
+      "special_defense": 85,
+      "speed": 105
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 126,
+    "dex": "126",
+    "name": "Magmar",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "special_attack": 100,
+      "special_defense": 85,
+      "speed": 93
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 127,
+    "dex": "127",
+    "name": "Pinsir",
+    "type": [
+      "Bug"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special_attack": 55,
+      "special_defense": 70,
+      "speed": 85
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 128,
+    "dex": "128",
+    "name": "Tauros",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 129,
+    "dex": "129",
+    "name": "Magikarp",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "special_attack": 15,
+      "special_defense": 20,
+      "speed": 80
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 130,
+    "dex": "130",
+    "name": "Gyarados",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special_attack": 60,
+      "special_defense": 100,
+      "speed": 81
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 131,
+    "dex": "131",
+    "name": "Lapras",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 85,
+      "special_defense": 95,
+      "speed": 60
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 132,
+    "dex": "132",
+    "name": "Ditto",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "special_attack": 48,
+      "special_defense": 48,
+      "speed": 48
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 133,
+    "dex": "133",
+    "name": "Eevee",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 45,
+      "special_defense": 65,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 134,
+    "dex": "134",
+    "name": "Vaporeon",
+    "type": [
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 65
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 135,
+    "dex": "135",
+    "name": "Jolteon",
+    "type": [
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 130
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 136,
+    "dex": "136",
+    "name": "Flareon",
+    "type": [
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special_attack": 95,
+      "special_defense": 110,
+      "speed": 65
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 137,
+    "dex": "137",
+    "name": "Porygon",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 40
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 138,
+    "dex": "138",
+    "name": "Omanyte",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "special_attack": 90,
+      "special_defense": 55,
+      "speed": 35
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 139,
+    "dex": "139",
+    "name": "Omastar",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "special_attack": 115,
+      "special_defense": 70,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 140,
+    "dex": "140",
+    "name": "Kabuto",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "special_attack": 55,
+      "special_defense": 45,
+      "speed": 55
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 141,
+    "dex": "141",
+    "name": "Kabutops",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "special_attack": 65,
+      "special_defense": 70,
+      "speed": 80
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 142,
+    "dex": "142",
+    "name": "Aerodactyl",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 130
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 143,
+    "dex": "143",
+    "name": "Snorlax",
+    "type": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "special_attack": 65,
+      "special_defense": 110,
+      "speed": 30
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 144,
+    "dex": "144",
+    "name": "Articuno",
+    "type": [
+      "Ice",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "special_attack": 95,
+      "special_defense": 125,
+      "speed": 85
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 145,
+    "dex": "145",
+    "name": "Zapdos",
+    "type": [
+      "Electric",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "special_attack": 125,
+      "special_defense": 90,
+      "speed": 100
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 146,
+    "dex": "146",
+    "name": "Moltres",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "special_attack": 125,
+      "special_defense": 85,
+      "speed": 90
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 147,
+    "dex": "147",
+    "name": "Dratini",
+    "type": [
+      "Dragon"
+    ],
+    "base_stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 50
+    },
+    "favorite": true,
+    "caught_entities": 0
+  },
+  {
+    "id": 148,
+    "dex": "148",
+    "name": "Dragonair",
+    "type": [
+      "Dragon"
+    ],
+    "base_stats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 149,
+    "dex": "149",
+    "name": "Dragonite",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "base_stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 150,
+    "dex": "150",
+    "name": "Mewtwo",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "special_attack": 154,
+      "special_defense": 90,
+      "speed": 130
+    },
+    "favorite": false,
+    "caught_entities": 0
+  },
+  {
+    "id": 151,
+    "dex": "151",
+    "name": "Mew",
+    "type": [
+      "Psychic"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 100
+    },
+    "favorite": true,
+    "caught_entities": 0
+  }
 ]
