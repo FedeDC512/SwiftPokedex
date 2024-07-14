@@ -28,21 +28,30 @@ struct PokemonDetails: View {
                     Text(pokemon.name).font(.title)
                     FavoriteButton(isSet: $modelData.pokemons[pokemonIndex].favorite)
                     Spacer()
-                    CatchButton(caughtEntities: $modelData.pokemons[pokemonIndex].caught_entities)
+                    TypeList(types: pokemon.type)
                 }
                 
                 HStack {
-                    Text(pokemon.dex).font(.subheadline)
+                    Text("#\(pokemon.dex)").font(.subheadline)
                     Spacer()
-                    ForEach(0..<pokemon.type.count) {
-                        i in Text(pokemon.type[i])
-                    }
+                    CatchButton(caughtEntities: $modelData.pokemons[pokemonIndex].caught_entities)
                 }
+                
                 Divider()
-                Text("Base Stats").font(.title2)
-                HStack{
-                    let total_stats = pokemon.base_stats.attack + pokemon.base_stats.defense + pokemon.base_stats.special_attack + pokemon.base_stats.special_defense + pokemon.base_stats.speed
-                    Text("Total: \(total_stats)\nAttack: \(pokemon.base_stats.attack)\nDefense: \(pokemon.base_stats.defense)\nSpecial Attack: \(pokemon.base_stats.special_attack)\nSpecial Defense: \(pokemon.base_stats.special_defense)\nSpeed: \(pokemon.base_stats.speed)").multilineTextAlignment(.trailing)}
+                Text("Base Stats")
+                    .font(.title2)
+                let total_stats = pokemon.base_stats.hp + pokemon.base_stats.attack + pokemon.base_stats.defense + pokemon.base_stats.special_attack + pokemon.base_stats.special_defense + pokemon.base_stats.speed
+                
+                VStack {
+                    StatsBar(text: "Total", value: total_stats, total: true)
+                    StatsBar(text: "HP", value: pokemon.base_stats.hp, total: false)
+                    StatsBar(text: "Attack", value: pokemon.base_stats.attack, total: false)
+                    StatsBar(text: "Defense", value: pokemon.base_stats.defense, total: false)
+                    StatsBar(text: "Sp. Atk", value: pokemon.base_stats.special_attack, total: false)
+                    StatsBar(text: "Sp. Def", value: pokemon.base_stats.special_defense, total: false)
+                    StatsBar(text: "Speed", value: pokemon.base_stats.speed, total: false)
+                    
+                }
             }
             .padding()
             
@@ -53,6 +62,6 @@ struct PokemonDetails: View {
 }
 
 #Preview {
-    PokemonDetails(pokemon: ModelData().pokemons[150]).environment(ModelData())
+    PokemonDetails(pokemon: ModelData().pokemons[129]).environment(ModelData())
 }
 
