@@ -33,9 +33,16 @@ struct PokemonDetails: View {
                 
                 HStack {
                     Text("#\(pokemon.dex)").font(.subheadline)
-                    Spacer()
-                    CatchButton(caughtEntities: $modelData.pokemons[pokemonIndex].caught_entities)
+                    Image("PixelPokedex")
+                        .resizable()
+                        .interpolation(.none)
+                        .scaledToFit()
+                        .frame(width: 20, height: 20)
+                    /*Spacer()
+                    CatchButton(caughtEntities: $modelData.pokemons[pokemonIndex].caught_entities)*/
                 }
+                .padding(.horizontal, 5)
+                .padding(.top, -10)
                 
                 Divider()
                 Text("Base Stats")
@@ -54,14 +61,14 @@ struct PokemonDetails: View {
                 }
             }
             .padding()
-            
             Spacer()
         }
         .ignoresSafeArea()
     }
+    
 }
 
 #Preview {
-    PokemonDetails(pokemon: ModelData().pokemons[129]).environment(ModelData())
+    PokemonDetails(pokemon: ModelData().pokemons[149]).environment(ModelData())
 }
 

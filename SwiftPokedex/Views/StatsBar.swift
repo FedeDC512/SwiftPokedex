@@ -35,7 +35,7 @@ struct StatsBar: View {
                 Text("\(value)")
                     .bold()
             }
-            .padding(5)
+            .padding(.horizontal, 5)
             
             HStack {
                 ProgressView(value: progress)
