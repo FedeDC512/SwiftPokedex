@@ -30,10 +30,10 @@ struct StatsBar: View {
         ZStack {
             HStack {
                 Text(text)
-                    .bold()
+                    //.bold()
                 Spacer()
                 Text("\(value)")
-                    .bold()
+                    //.bold()
             }
             .padding(.horizontal, 5)
             
