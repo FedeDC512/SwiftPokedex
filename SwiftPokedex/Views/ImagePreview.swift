@@ -11,10 +11,12 @@ struct ImagePreview: View {
     var image: Image
     var body: some View {
         image
-            .resizable().frame(width: 200, height: 200).shadow(radius: 50)
+            .resizable()
+            .frame(width: 200, height: 200)
+            .shadow(radius: 50)
     }
 }
 
 #Preview {
-    ImagePreview(image: Image("001"))
+    ImagePreview(image: Image("Artwork/001"))
 }

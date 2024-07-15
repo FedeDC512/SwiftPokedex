@@ -26,6 +26,8 @@
 		7A3326B52C2F151C00FA7160 /* CatchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3326B42C2F151C00FA7160 /* CatchButton.swift */; };
 		7ACB9F6A2C33F1760019FB02 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB9F692C33F1760019FB02 /* README.md */; };
 		7ACB9F6C2C33F1C00019FB02 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB9F6B2C33F1C00019FB02 /* .gitignore */; };
+		7AD575F92C455125007F46D6 /* FRLGSpritePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD575F82C455125007F46D6 /* FRLGSpritePreview.swift */; };
+		7AD575FB2C4553A1007F46D6 /* RBYSpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD575FA2C4553A1007F46D6 /* RBYSpriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		7A3326B42C2F151C00FA7160 /* CatchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchButton.swift; sourceTree = "<group>"; };
 		7ACB9F692C33F1760019FB02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7ACB9F6B2C33F1C00019FB02 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7AD575F82C455125007F46D6 /* FRLGSpritePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRLGSpritePreview.swift; sourceTree = "<group>"; };
+		7AD575FA2C4553A1007F46D6 /* RBYSpriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBYSpriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,14 +120,16 @@
 			children = (
 				7A3326A12C2F13FD00FA7160 /* ImagePreview.swift */,
 				7A3326AA2C2F14B700FA7160 /* Decoration.swift */,
+				7AD575FA2C4553A1007F46D6 /* RBYSpriteView.swift */,
+				7AD575F82C455125007F46D6 /* FRLGSpritePreview.swift */,
+				7A29BBD62C4431080089A8A4 /* ColorType.swift */,
+				7A29BBD82C4435440089A8A4 /* TypeList.swift */,
 				7A3326AC2C2F14C800FA7160 /* PokemonRow.swift */,
 				7A3326AE2C2F14D700FA7160 /* PokemonList.swift */,
 				7A3326B02C2F14EA00FA7160 /* PokemonDetails.swift */,
 				7A3326B22C2F150800FA7160 /* FavoriteButton.swift */,
 				7A3326B42C2F151C00FA7160 /* CatchButton.swift */,
 				7A29BBD42C4423810089A8A4 /* StatsBar.swift */,
-				7A29BBD62C4431080089A8A4 /* ColorType.swift */,
-				7A29BBD82C4435440089A8A4 /* TypeList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 			files = (
 				7A3326962C2F011A00FA7160 /* ContentView.swift in Sources */,
 				7A3326AF2C2F14D700FA7160 /* PokemonList.swift in Sources */,
+				7AD575F92C455125007F46D6 /* FRLGSpritePreview.swift in Sources */,
+				7AD575FB2C4553A1007F46D6 /* RBYSpriteView.swift in Sources */,
 				7A3326A42C2F142D00FA7160 /* Pokemon.swift in Sources */,
 				7A3326B32C2F150800FA7160 /* FavoriteButton.swift in Sources */,
 				7A3326A62C2F144500FA7160 /* ModelData.swift in Sources */,

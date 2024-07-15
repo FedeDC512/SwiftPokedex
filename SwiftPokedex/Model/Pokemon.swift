@@ -18,7 +18,19 @@ struct Pokemon: Hashable, Codable, Identifiable {
     var caught_entities:Int
     
     var image: Image {
-        Image(dex)
+        Image("Artwork/\(dex)")
+    }
+    
+    var RB: Image {
+        Image("RedBlue/\(id)")
+    }
+    
+    var FRLG: Image {
+        Image("FireRedLeafGreen/\(id)")
+    }
+    
+    var Y: Image {
+        Image("Yellow/\(id)")
     }
 }
 

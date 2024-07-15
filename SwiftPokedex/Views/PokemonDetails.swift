@@ -39,7 +39,7 @@ struct PokemonDetails: View {
                         .scaledToFit()
                         .frame(width: 20, height: 20)
                     /*Spacer()
-                    CatchButton(caughtEntities: $modelData.pokemons[pokemonIndex].caught_entities)*/
+                     CatchButton(caughtEntities: $modelData.pokemons[pokemonIndex].caught_entities)*/
                 }
                 .padding(.horizontal, 5)
                 .padding(.top, -10)
@@ -59,8 +59,41 @@ struct PokemonDetails: View {
                     StatsBar(text: "Speed", value: pokemon.base_stats.speed, total: false)
                     
                 }
+                
+                Divider()
+                VStack{
+                    Text("Sprites")
+                        .font(.title2)
+                }
+                
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                    VStack {
+                        Spacer()
+                        RBYSpriteView(sprite: pokemon.RB)
+                        Spacer()
+                        Text("Red/Blue")
+                            .font(.system(size: 13))
+                    }
+                    VStack {
+                        Spacer()
+                        RBYSpriteView(sprite: pokemon.Y)
+                        Spacer()
+                        Text("Yellow")
+                            .font(.system(size: 13))
+                    }
+                    VStack {
+                        Spacer()
+                        FRLGSpritePreview(sprite: pokemon.FRLG)
+                        Spacer()
+                        Text("FireRed/LeafGreen")
+                            .font(.system(size: 13))
+                            
+                    }
+                }
+                .offset(CGSize(width: 0, height: -15))
             }
             .padding()
+            
             Spacer()
         }
         .ignoresSafeArea()
@@ -69,6 +102,6 @@ struct PokemonDetails: View {
 }
 
 #Preview {
-    PokemonDetails(pokemon: ModelData().pokemons[149]).environment(ModelData())
+    PokemonDetails(pokemon: ModelData().pokemons[3]).environment(ModelData())
 }
 
