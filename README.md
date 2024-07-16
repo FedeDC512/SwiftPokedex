@@ -23,10 +23,11 @@ This project is a Pokédex app featuring the first 151 Pokémon, developed using
 
 ## Screenshots
 
-![Home Screen](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Home.PNG)
-![Pokédex List](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Dex.PNG)
-![Pokémon Details](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Details.PNG)
-![Favorites](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Favorites.PNG)
+<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Home.PNG" alt="Home Screen" style="width: 20%; height: auto;">
+
+<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Dex.PNG" alt="Pokédex List" style="width: 20%; height: auto;">
+<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Details1.PNG" alt="Pokémon Details" style="width: 20%; height: auto;">
+<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Favorites.PNG" alt="Favorites" style="width: 20%; height: auto;">
 
 
 ## Technologies and Methodologies
