@@ -21,6 +21,14 @@ This project is a Pokédex app featuring the first 151 Pokémon, developed using
 - **Favorite Functionality**: Users can mark their favorite Pokémon, and filter the list to show only favorites.
 - **Responsive UI**: Uses SwiftUI to create a responsive and visually appealing user interface.
 
+## Screenshots
+
+![Home Screen](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Home.PNG)
+![Pokédex List](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Dex.PNG)
+![Pokémon Details](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Details.PNG)
+![Favorites](https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Favorites.PNG)
+
+
 ## Technologies and Methodologies
 
 ### Swift and SwiftUI
