@@ -1,6 +1,6 @@
 # SwiftPokedex
 
-<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/SwiftPokedex/Assets.xcassets/AppIcon.appiconset/Pok%C3%A9dex_RBY.png" alt="App Icon" style="width: 100px; height: 100px; border-radius: 23%;">
+<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/images/AppIcon.png" alt="App Icon" style="width: 100px; height: 100px;">
 
 
 ## Table of Contents
