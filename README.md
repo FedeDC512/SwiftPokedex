@@ -1,5 +1,8 @@
 # SwiftPokedex
 
+<img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/SwiftPokedex/Assets.xcassets/AppIcon.appiconset/Pok%C3%A9dex_RBY.png" alt="App Icon" style="width: 100px; height: 100px; border-radius: 50%;">
+
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -10,7 +13,7 @@
 
 ## Overview
 
-This project is a Pokédex app featuring the first 151 Pokémon, developed using Swift and SwiftUI as part of the Apple Foundation Program 2024 at the University of Palermo. The app provides a comprehensive display of Pokémon information, including their images, stats, and other details.
+This project is a Pokédex app featuring the first 151 Pokémon, developed using Swift and SwiftUI as part of the "Apple Foundation Program 2024" at the University of Palermo. The app provides a comprehensive display of Pokémon information, including their images, stats, and other details.
 
 ## Features
 
