@@ -1,5 +1,13 @@
 # SwiftPokedex
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies and Methodologies](#technologies-and-methodologies)
+- [Running the Project](#running-the-project)
+- [Conclusion](#conclusion)
+
 ## Overview
 
 This project is a Pokédex app featuring the first 151 Pokémon, developed using Swift and SwiftUI as part of the Apple Foundation Program 2024 at the University of Palermo. The app provides a comprehensive display of Pokémon information, including their images, stats, and other details.
@@ -48,3 +56,5 @@ To run the project, you will need:
 ## Conclusion
 
 This Pokédex project demonstrates the effective use of Swift and SwiftUI to create a dynamic and interactive application. By following modern design patterns and leveraging powerful SwiftUI features, the app provides a smooth and engaging user experience for Pokémon enthusiasts.
+
+Through this project, I have gained valuable experience in managing state with SwiftUI's environment objects, handling JSON data with Swift's Codable protocol, and designing responsive UI components. Additionally, I have deepened my understanding of the MVVM design pattern and its practical application in building modular and maintainable code. This project has been an enriching learning experience, enhancing both my technical skills and my ability to create well-structured, user-friendly applications.
