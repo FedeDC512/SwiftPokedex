@@ -7,6 +7,7 @@
 
 - [Overview](#overview)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Technologies and Methodologies](#technologies-and-methodologies)
 - [Running the Project](#running-the-project)
 - [Conclusion](#conclusion)
