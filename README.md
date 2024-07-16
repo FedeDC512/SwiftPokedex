@@ -55,6 +55,4 @@ To run the project, you will need:
 
 ## Conclusion
 
-This Pokédex project demonstrates the effective use of Swift and SwiftUI to create a dynamic and interactive application. By following modern design patterns and leveraging powerful SwiftUI features, the app provides a smooth and engaging user experience for Pokémon enthusiasts.
-
-Through this project, I have gained valuable experience in managing state with SwiftUI's environment objects, handling JSON data with Swift's Codable protocol, and designing responsive UI components. Additionally, I have deepened my understanding of the MVVM design pattern and its practical application in building modular and maintainable code. This project has been an enriching learning experience, enhancing both my technical skills and my ability to create well-structured, user-friendly applications.
+Through this project, I have gained valuable experience in managing state with SwiftUI's environment objects, handling JSON data with Swift's Codable protocol, and designing responsive UI components. Additionally, I have deepened my understanding of the MVVM design pattern and its practical application in building modular and maintainable code. This project has not only enhanced my technical skills but also improved my ability to create well-structured, user-friendly applications. Overall, it has been an enriching learning experience, solidifying my proficiency in Swift and SwiftUI development.
