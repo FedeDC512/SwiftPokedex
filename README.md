@@ -8,7 +8,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Technologies and Methodologies](#technologies-and-methodologies)
+- [Tools and Techniques](#tools-and-techniques)
 - [Running the Project](#running-the-project)
 - [Conclusion](#conclusion)
 
@@ -32,7 +32,7 @@ This project is a Pokédex app featuring the first 151 Pokémon, developed using
   <img src="https://github.com/FedeDC512/SwiftPokedex/blob/main/images/Details3.PNG" alt="Pokémon Details" style="width: 30%; height: auto;">
 </div>
 
-## Technologies and Methodologies
+## Tools and Techniques
 
 ### Swift and SwiftUI
 
