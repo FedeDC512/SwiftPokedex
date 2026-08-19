@@ -14,7 +14,7 @@
 
 ## Overview
 
-This project is a Pokédex app featuring the first 151 Pokémon, developed using Swift and SwiftUI as part of the "Apple Foundation Program 2024" at the University of Palermo. The app provides a comprehensive display of Pokémon information, including their images, stats, and other details.
+This project is a Pokédex app featuring the first 151 Pokémon, developed using Swift and SwiftUI as part of the "Apple Foundation Program 2024 - Basic Course" at the University of Palermo. The app provides a comprehensive display of Pokémon information, including their images, stats, and other details.
 
 ## Features
 
